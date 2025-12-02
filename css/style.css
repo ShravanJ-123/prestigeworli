@@ -1060,33 +1060,43 @@ div#about-developer {
     color: #000;
     font-weight: 500;
   }
-  .mobile-section {
+.mobile-section {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: transparent;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     z-index: 9999;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
 }
 
 .mobile-section a {
+    width: 33.33%;
+    padding: 10px 0;
+    text-align: center;
+    background: #f7f7f7;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
-    text-decoration: none;
     color: #000;
 }
 
-.mobile-section img {
-    width: 25px;
-    height: 25px;
-    margin-bottom: 5px;
+.mobile-section a:last-child {
+    border-right: none;
 }
+
+.mobile-section img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
+}
+
 
 }
 
